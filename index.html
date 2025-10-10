@@ -30,6 +30,18 @@
         <link rel="stylesheet" href="static/css/common_style.css">
         <!--====== Style css ======-->
         <link rel="stylesheet" href="static/css/style.css">
+        <style>
+            .dot {
+                display: inline-block;
+                width: 10px;  /* 控制红点大小 */
+                height: 10px;
+                background-color: rgb(238,82,72);
+                border-radius: 50%;
+                margin-left: 8px;
+                margin-bottom: 1px;
+                /*padding-bottom: 5px;*/
+            }
+        </style>
     </head>
     <body class="business-home">
         <!--====== Start Preloader ======-->
@@ -197,16 +209,20 @@
                                     <div class="hero-content">
                                         <span class="sub-heading"><!--<i class="far fa-arrow-right"></i>-->我们为何存在</span>
                                         <h2 class="split">
-                                            <span style="font-size: 25px">
-                                               <ul  class="red-dot-list" style="display: flex; align-items: center; justify-content: center;">
-                                                   <li>🔴Attention</li>
-                                                   <li>🔴Affinity</li>
-                                                   <li>🔴Action</li>
-                                                   <li>🔴Advocacy</li>
+                                            <span>
+                                               <ul style="display: flex; align-items: center; justify-content: center;">
+                                                   <li style="font-size: 30px">Attention</li>
+                                                   <span class="dot"></span>
+                                                   <li style="font-size: 30px;margin-left: 8px;">Affinity </li>
+                                                   <span class="dot"></span>
+                                                   <li style="font-size: 30px;margin-left: 8px;">Action </li>
+                                                   <span class="dot"></span>
+                                                   <li style="font-size: 30px;margin-left: 8px;">Advocacy </li>
                                                </ul>
+
                                             </span>
                                             <span style="font-size: 80px">OMNIX电商</span>
-                                            <span style="font-size: 80px">MCN机构</span>
+                                            <span style="font-size: 80px;margin-top: 10px">MCN机构</span>
                                         </h2>
                                     </div>
                                 </div>
